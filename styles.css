@@ -1,0 +1,68 @@
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.welcome-title {
+    animation: fadeInSlideUp 1s ease-in-out;
+    color: black;
+}
+.navbar .nav {
+    
+    color: black;
+}
+
+.navbar .nav:hover {
+    color: darkgray; 
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-top: 100px; 
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(1, 20, 9);
+    margin-top: 25px; 
+}
+.hero-section pre {
+    color: beige;
+}
+#pre1 {
+    position: absolute;
+    left: 1%;
+    top: 350px;
+    font-size: 1.2rem;
+    color: black;
+}
+#pre2 {
+    position: relative;
+    top: 100px;
+    font-size: 1.2rem;
+    color: black;
+}
+#pre3 {
+    position: absolute;
+    right: 3%;
+    top: 350px;
+    font-size: 1.2rem;
+    color: black;
+}
+.nav-item {
+    margin-left: 20px; 
+}

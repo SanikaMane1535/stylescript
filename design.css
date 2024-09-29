@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back-img
+{
+    background-image : url('style.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.design-now
+{
+    text-align: center;
+    padding-top: 20%;
+
+}
+.design-now button{
+    height: 50px;
+    width: 200px;
+    border-radius: 0.9rem;
+    background-color: rgb(112, 102, 102);
+    color:azure;
+    border-width: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+button:hover{
+    background-color: rgb(49, 66, 66);
+    color: black;
+
+    cursor: pointer;
+}
+button:hover:before
+{
+    transform: translate(300px);
+    opacity: .6;
+    transition: .7s;
+}
+button:hover:after
+{
+    transform: translate(300px);
+    opacity: .6;
+    transition: .7s;
+}

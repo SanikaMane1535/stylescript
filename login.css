@@ -1,0 +1,73 @@
+body {
+    background-image : url('style.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(14, 13, 13);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px white;
+    width: 300px;
+}
+.navbar {
+    background-color: white; /* Ensures navbar is visible */
+}
+.
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    margin-bottom: 1.4rem;
+    margin-right:1rem ;
+}
+
+label {
+    display:block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-right:0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
